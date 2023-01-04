@@ -18,6 +18,11 @@
     background-color: #FD6E0A;
 }
 
+.btn-contact{
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+}
 section{
     margin-top: 130px;
     margin-bottom: 130px;
@@ -27,7 +32,7 @@ section{
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right,left;
+    background-position: bottom right, left 30px;
 }
 nav {
     display: flex;
@@ -93,7 +98,7 @@ main{
     margin-bottom: 130px;
 }
 .section-title{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     color: #181818;
     font-size: 35px;
     font-weight: 700;
@@ -122,6 +127,11 @@ main{
 /* What i do styles */
 .what-i-do{
     text-align: center;
+}
+.what-i-do>p.section-description{
+    margin-left: 100px;
+    margin-right: 120px;
+    padding-bottom: 50px;
 }
 .skills-container{
     display: flex;
@@ -206,7 +216,5 @@ input[type="text"],input[type="email"], textarea{
     border: 0;
     width: 100%;
     padding: 18px 30px;
-}
-input{
-    height: 64px;
+    border-radius: 5px;
 }
